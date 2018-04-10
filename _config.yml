@@ -1,0 +1,27 @@
+# Site settings
+title: dc256
+email: info@dc256.org
+description: north alabama defcon group
+#baseurl: "/" # the subpath of your site, e.g. /blog
+#url: "" # the base hostname & protocol for your site
+
+# Identity
+your-name: dc256
+your-title: rocket city hackers
+
+# Social settings
+twitter_url: https://twitter.com/defcon256
+github_url: https://github.com/dc256
+discord_url: https://discord.gg/9d3uY8Y
+#slack_url:
+#500px_url:
+#facebook_url:
+#gitlab_url: 
+#googleplus_url: 
+#instagram_url: 
+#linkedin_url: 
+#pinterest_url:
+
+# Build settings
+markdown: kramdown
+
