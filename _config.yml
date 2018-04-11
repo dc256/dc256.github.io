@@ -1,9 +1,9 @@
 # Site settings
-title: b
+title: c
 email: info@dc256.org
 description: north alabama defcon group
-baseurl: "/"
-url: "https://dc256.org"
+#baseurl: "/"
+#url: "https://dc256.org"
 
 # Identity
 your-name: dc256
