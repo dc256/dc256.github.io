@@ -1,9 +1,9 @@
 # Site settings
-title: a
+title: b
 email: info@dc256.org
 description: north alabama defcon group
-#baseurl: "/" # the subpath of your site, e.g. /blog
-#url: "" # the base hostname & protocol for your site
+baseurl: "/"
+url: "https://dc256.org"
 
 # Identity
 your-name: dc256
