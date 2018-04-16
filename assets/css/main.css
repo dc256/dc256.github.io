@@ -1,6 +1,5 @@
 @charset "UTF-8";
-@import url(fontawesome.css);
-@import url(fa-brands.css);
+@import url(fontawesome-all.min.css);
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300");
 
 /*
@@ -317,9 +316,9 @@
 			content: "";
 			-moz-osx-font-smoothing: grayscale;
 			-webkit-font-smoothing: antialiased;
-			font-family: "Font Awesome 5 Free";
+			font-family: FontAwesome;
 			font-style: normal;
-			font-weight: 400;
+			font-weight: normal;
 			text-transform: none !important;
 		}
 
@@ -382,9 +381,9 @@
 			input[type="radio"] + label:before {
 				-moz-osx-font-smoothing: grayscale;
 				-webkit-font-smoothing: antialiased;
-				font-family: "Font Awesome 5 Free";
+				font-family: FontAwesome;
 				font-style: normal;
-				font-weight: 400;
+				font-weight: normal;
 				text-transform: none !important;
 			}
 
@@ -458,9 +457,9 @@
 		.icon:before {
 			-moz-osx-font-smoothing: grayscale;
 			-webkit-font-smoothing: antialiased;
-			font-family: "Font Awesome 5 Free";
+			font-family: FontAwesome;
 			font-style: normal;
-			font-weight: 400;
+			font-weight: normal;
 			text-transform: none !important;
 		}
 
@@ -528,16 +527,21 @@
 					line-height: 3.75em;
 					overflow: hidden;
 					text-align: center;
-					text-indent: 3.75em;
+					/* text-indent: 3.75em; */
 					white-space: nowrap;
 				}
+
+        ul.icons li a i {
+          margin-top: .75rem;
+          margin-left: .25rem;
+        }
 
 					ul.icons li a:before {
 						-moz-osx-font-smoothing: grayscale;
 						-webkit-font-smoothing: antialiased;
-						font-family: "Font Awesome 5 Free";
+						font-family: FontAwesome;
 						font-style: normal;
-						font-weight: 400;
+						font-weight: normal;
 						text-transform: none !important;
 					}
 
