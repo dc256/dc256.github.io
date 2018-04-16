@@ -65,8 +65,13 @@
 					line-height: 3.75em;
 					overflow: hidden;
 					text-align: center;
-					text-indent: 3.75em;
+					// text-indent: 3.75em;
 					white-space: nowrap;
+
+          i {
+            margin-top: .75rem;
+            margin-left: .25rem;
+          }
 
 					&:before {
 						position: absolute;

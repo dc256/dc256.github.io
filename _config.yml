@@ -1,5 +1,5 @@
 # Site settings
-title: c
+title: dc256
 email: info@dc256.org
 description: north alabama defcon group
 #baseurl: "/"
@@ -10,17 +10,49 @@ your-name: dc256
 your-title: rocket city hackers
 
 # Social settings
-twitter_url: https://twitter.com/defcon256
-github_url: https://github.com/dc256
-discord_url: https://discord.gg/9d3uY8Y
-#slack_url:
-#500px_url:
-#facebook_url:
-#gitlab_url: 
-#googleplus_url: 
-#instagram_url: 
-#linkedin_url: 
-#pinterest_url:
+links:
+  - name: Twitter
+    url: https://twitter.com/defcon256
+    icon: fa-twitter
+  - name: Discord
+    url: https://discord.gg/9d3uY8Y
+    icon: fa-discord
+  - name: Github
+    url: https://github.com/dc256
+    icon: fa-github
+#  - name: 500px
+#    url: https://500px.com/
+#    icon: fa-500px
+#  - name: Facebook
+#    url: https://facebook.com
+#    icon: fa-facebook
+#  - name: Gitlab
+#    url: https://gitlab.com/u/andrewbanchich
+#    icon: fa-gitlab
+#  - name: Google+
+#    url: https://plus.google.com/u/0/+AndrewBanchich
+#    icon: fa-google-plus-g
+#  - name: Instagram
+#    url: https://instagram.com
+#    icon: fa-instagram
+#  - name: Linkedin
+#    url: https://www.linkedin.com/in/andrew-banchich-a4ba1195
+#    icon: fa-linkedin
+#  - name: Pinterest
+#    url: https://www.pinterest.com/
+#    icon: fa-pinterest
+#  - name: Slack
+#    url: https://slack.com/
+#    icon: fa-slack
+#  - name: audible
+#    url: https://www.audible.com/
+#    icon: fa-audible
+#  - name: Bitcoin
+#    url: https://bitcoin.org/
+#    icon: fa-bitcoin
+#  - name: Digital Ocean
+#    url: https://www.digitalocean.com/
+#    icon: fa-digital-ocean
 
 # Build settings
 markdown: kramdown
